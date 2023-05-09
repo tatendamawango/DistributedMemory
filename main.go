@@ -9,13 +9,13 @@ import (
 	"strings"
 )
 
-const filePath string = "IFU-0_MawangoTatenda_Lab2_dat.txt"
+const filePath string = "dat.txt"
 
-// const filePath string = "IFU-0_MawangoTatenda_Lab2_dat2.txt"
+// const filePath string = "dat2.txt"
 
-// const filePath string = "IFU-0_MawangoTatenda_Lab2_dat3.txt"
+// const filePath string = "dat3.txt"
 
-const resultsFilePath string = "IFU-0_MawangoTatenda_Lab2_rez.txt"
+const resultsFilePath string = "rez.txt"
 
 func main() {
 	data := Read(filePath)
